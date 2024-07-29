@@ -1,0 +1,18 @@
+.input {
+  padding: 0.8rem;
+  border: 0.0625rem solid var(--input-highlight-color);
+  color: black;
+
+  &:focus {
+    border: 0.0625rem solid black;
+  }
+
+  &::placeholder {
+    color: var(--input-highlight-color);
+  }
+}
+
+.label {
+  font-weight: normal;
+  font-size: 16px;
+}

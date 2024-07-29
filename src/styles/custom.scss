@@ -1,0 +1,107 @@
+.c-catering {
+  &-last-column {
+    flex-grow: 1 !important;
+  }
+
+  &-last-updated {
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+    width: 250px;
+  }
+
+  &-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  &-bdr {
+    &-box {
+      border: 1px solid var(--border-color);
+    }
+
+    &-r {
+      border-right: 1px solid var(--border-color);
+    }
+
+    &-t {
+      border-top: 1px solid var(--border-color);
+    }
+
+    &-b {
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    &-f {
+      border: 1px solid var(--border-color);
+    }
+  }
+
+  &-p {
+    &-0 {
+      padding: 0;
+    }
+  }
+
+  &-w {
+    &-full {
+      width: 100%;
+    }
+  }
+
+  &-text {
+    &-main {
+      color: var(--main-color);
+    }
+  }
+
+  &-cursor {
+    &-pointer {
+      cursor: pointer;
+    }
+  }
+
+  &-font {
+    &-bold {
+      font-weight: bold !important;
+    }
+
+    &-900 {
+      font-weight: 900 !important;
+    }
+  }
+
+  &-fz {
+    &-dot8rem {
+      font-size: 0.8rem !important;
+    }
+
+    &-2rem {
+      font-size: 2rem !important;
+    }
+  }
+
+  &-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &-hover {
+    &-bg {
+      &:hover {
+        background-color: var(--hover-background-color) !important;
+      }
+    }
+  }
+
+  &-btn-icon {
+    &:hover {
+      // https://mantine.dev/styles/css-variables/
+      background: var(--mantine-color-default-hover);
+    }
+  }
+}

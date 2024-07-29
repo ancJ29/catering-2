@@ -1,0 +1,11 @@
+.innerInput {
+  &::placeholder {
+    color: var("--input-placeholder-color");
+  }
+}
+
+.input {
+  &::placeholder {
+    color: var("--input-placeholder-color");
+  }
+}
